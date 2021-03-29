@@ -45,7 +45,7 @@ function App() {
                     </div>
                     <div className="d-flex flex-row-reverse">
                         <p className="text-pri name mt-2 ">NARESH KUMAR</p>
-                        <img src="img/Userpic.jpg" alt="" className="img-fluid mt-1 pic mr-5"></img>
+                        <img src="img/Userpic.jpg" alt="image" className="img-fluid mt-1 pic mr-5"></img>
                         <i className="bi bi-bell mr-5 mt-1" style={{fontSize:"25px"}}></i>
                     </div>
                 </div>
