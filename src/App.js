@@ -1,4 +1,6 @@
 import './App.css';
+import logo from './logo.jpeg'
+import user from './Userpic.jpg'
 
 function App() {
   return (
@@ -34,7 +36,7 @@ function App() {
                 </div>
             </div>
             <div className="col-md-11">
-                <div className="d-flex justify-content-between bg-white px-2" style={{height: "38px"}}>
+                <div className="d-flex justify-content-between bg-white px-2" style={{height: "38px",paddingRight:"45px !important"}}>
                     <div className="d-flex flex-row">
                         <div className="input-group input-group-sm mt-1">
                             <input type="text" className="form-control" placeholder="Search for anything" style={{height: "25px"}}></input>
@@ -45,7 +47,7 @@ function App() {
                     </div>
                     <div className="d-flex flex-row-reverse">
                         <p className="text-pri name mt-2 ">NARESH KUMAR</p>
-                        <img src="img/Userpic.jpg" alt="image" className="img-fluid mt-1 pic mr-5"></img>
+                        <img src={user} alt="image" className="img-fluid mt-1 pic mr-5"></img>
                         <i className="bi bi-bell mr-5 mt-1" style={{fontSize:"25px"}}></i>
                     </div>
                 </div>
@@ -391,7 +393,7 @@ function App() {
                     <div className="col-md-3 pl-2 mt-1">
                         <div className="bg-white" style={{height: "100%"}}>
                             <div className="logo text-center mb-2">
-                                <img src="img/logo.jpeg" alt="" className="img-fluid" style={{height: "46px",width: "247px"}}></img>
+                                <img src={logo} alt="" className="img-fluid" style={{height: "46px",width: "247px"}}></img>
                             </div>
                             <div id="accordion">
                                 <div className="card">
