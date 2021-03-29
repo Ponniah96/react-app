@@ -38,406 +38,384 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-    <div class="row no-gutters main">
-      <!--Sidebar-->
-      <div class="col-md-1">
-          <div class="sidebar">
-              <div class=" d-flex justify-content-center">
-                  <div class="d-flex iconbox justify-content-center align-items-center mt-4" style="height: 60px;width: 60px;">
-                      <i class="bi bi-house-door" style="font-size: 30px;"></i>
+    
+    <!-- <div className="row no-gutters main">
+      <div className="col-md-1">
+          <div className="sidebar">
+              <div className=" d-flex justify-content-center">
+                  <div className="d-flex iconbox justify-content-center align-items-center mt-4" style="height: 60px;width: 60px;">
+                      <i className="bi bi-house-door" style="font-size: 30px;"></i>
                   </div>
               </div>
-              <div class=" d-flex justify-content-center">
-                  <div class="d-flex iconbox justify-content-center align-items-center mt-4" style="height: 60px;width: 60px;;">
-                      <i class="bi bi-people" style="font-size: 30px;"></i>
+              <div className=" d-flex justify-content-center">
+                  <div className="d-flex iconbox justify-content-center align-items-center mt-4" style="height: 60px;width: 60px;;">
+                      <i className="bi bi-people" style="font-size: 30px;"></i>
                   </div>
               </div>
-              <div class=" d-flex justify-content-center">
-                  <div class="d-flex iconbox justify-content-center align-items-center mt-4" style="height: 60px;width: 60px;;">
-                      <i class="bi bi-file-earmark-plus" style="font-size: 30px;"></i>
+              <div className=" d-flex justify-content-center">
+                  <div className="d-flex iconbox justify-content-center align-items-center mt-4" style="height: 60px;width: 60px;;">
+                      <i className="bi bi-file-earmark-plus" style="font-size: 30px;"></i>
                   </div>
               </div>
-              <div class=" d-flex justify-content-center">
-                  <div class="d-flex iconbox justify-content-center align-items-center mt-4" style="height: 60px;width: 60px;;">
-                      <i class="bi bi-gear" style="font-size: 30px;"></i>
+              <div className=" d-flex justify-content-center">
+                  <div className="d-flex iconbox justify-content-center align-items-center mt-4" style="height: 60px;width: 60px;;">
+                      <i className="bi bi-gear" style="font-size: 30px;"></i>
                   </div>
               </div>
-              <div class=" d-flex justify-content-center">
-                  <div class="d-flex iconbox justify-content-center align-items-center mt-4" style="height: 60px;width: 60px;;">
-                      <i class="bi bi-people" style="font-size: 30px;"></i>
+              <div className=" d-flex justify-content-center">
+                  <div className="d-flex iconbox justify-content-center align-items-center mt-4" style="height: 60px;width: 60px;;">
+                      <i className="bi bi-people" style="font-size: 30px;"></i>
                   </div>
               </div>
           </div>
       </div>
-      <!--search bar-->
-      <div class="col-md-11">
-          <div class="d-flex justify-content-between bg-white px-2" style="height: 38px;">
-              <div class="d-flex flex-row">
-                  <div class="input-group input-group-sm mt-1">
-                      <input type="text" class="form-control" placeholder="Search for anything" style="height:25px">
-                      <div class="input-group-append" style="height:25px">
-                          <span class="input-group-text bg-white" id="basic-addon2"><i class=" text-secondary fas fa-search"></i></span>
+      <div className="col-md-11">
+          <div className="d-flex justify-content-between bg-white px-2" style="height: 38px;">
+              <div className="d-flex flex-row">
+                  <div className="input-group input-group-sm mt-1">
+                      <input type="text" className="form-control" placeholder="Search for anything" style="height:25px">
+                      <div className="input-group-append" style="height:25px">
+                          <span className="input-group-text bg-white" id="basic-addon2"><i className=" text-secondary fas fa-search"></i></span>
                       </div>
                   </div>
               </div>
-              <div class="d-flex flex-row-reverse">
-                  <p class="text-pri name mt-2 ">NARESH KUMAR</p>
-                  <img src="img/Userpic.png" alt="" class="img-fluid mt-1 pic mr-5">
-                  <i class="bi bi-bell mr-5 mt-1" style="font-size: 25px;"></i>
+              <div className="d-flex flex-row-reverse">
+                  <p className="text-pri name mt-2 ">NARESH KUMAR</p>
+                  <img src="img/Userpic.png" alt="" className="img-fluid mt-1 pic mr-5">
+                  <i className="bi bi-bell mr-5 mt-1" style="font-size: 25px;"></i>
               </div>
           </div>
-
-          <!--Advance toolbar-->
-          <div class="row text-secondary ml-2">
-              <div class="col-md-9">
-                  <div class="row bg-white border mt-1">
-                      <div class="d-flex flex-row align-items-center justify-content-between">
-                          <button type="button" class="btn button btn-sm btn-outline-secondary mx-3">All</button>
-                          <p class="text-secondary mt-2">Sort by</p>
-                          <select class="form-select mx-2 text-secondary" aria-label="Default select example">
+          <div className="row text-secondary ml-2">
+              <div className="col-md-9">
+                  <div className="row bg-white border mt-1">
+                      <div className="d-flex flex-row align-items-center justify-content-between">
+                          <button type="button" className="btn button btn-sm btn-outline-secondary mx-3">All</button>
+                          <p className="text-secondary mt-2">Sort by</p>
+                          <select className="form-select mx-2 text-secondary" aria-label="Default select example">
                               <option selected="">Name</option>
                               <option value="1">One</option>
                               <option value="2">Two</option>
                               <option value="3">Three</option>
                           </select>
-                          <div class="d-flex align-items-center">
-                              <a href="#"><i class="bi bi-download ml-4" style="font-size:22px"></i></a>
-                              <a href="#"><i class="bi bi-file-earmark-plus ml-4" style="font-size:22px"></i></a>
-                              <a href="#"><i class="bi bi-pencil-square ml-4" style="font-size:22px"></i></a>
-                              <a href="#"><i class="bi bi-gear ml-4" style="font-size:22px"></i></a>
+                          <div className="d-flex align-items-center">
+                              <a href="#"><i className="bi bi-download ml-4" style="font-size:22px"></i></a>
+                              <a href="#"><i className="bi bi-file-earmark-plus ml-4" style="font-size:22px"></i></a>
+                              <a href="#"><i className="bi bi-pencil-square ml-4" style="font-size:22px"></i></a>
+                              <a href="#"><i className="bi bi-gear ml-4" style="font-size:22px"></i></a>
                           </div>
-                          <button class="btn button btn-sm btn-outline-secondary mx-4"><i class="bi bi-funnel"></i>Filter</button>
+                          <button className="btn button btn-sm btn-outline-secondary mx-4"><i className="bi bi-funnel"></i>Filter</button>
                       </div>
-                      <div class="ml-auto d-flex align-items-center">
-                          <ul class="nav nav-tabs ">
-                              <li class="nav-item">
-                                  <a class="nav-link active" href="#">Tab 1</a>
+                      <div className="ml-auto d-flex align-items-center">
+                          <ul className="nav nav-tabs ">
+                              <li className="nav-item">
+                                  <a className="nav-link active" href="#">Tab 1</a>
                               </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="#">Tab 2</a>
+                              <li className="nav-item">
+                                  <a className="nav-link" href="#">Tab 2</a>
                               </li>
                           </ul>
                       </div>
-                      <div class="d-flex align-items-center accordion pr-3">
+                      <div className="d-flex align-items-center accordion pr-3">
 
-                          <i class="bi bi-chevron-down" data-toggle="collapse" href="#collapseExample"></i>
+                          <i className="bi bi-chevron-down" data-toggle="collapse" href="#collapseExample"></i>
                       </div>
                   </div>
-                  <div class="collapse m-0" id="collapseExample">
-                      <div class="row bg-white border p-1">
-                          <div class="form-group row mb-0 pl-3">
-                              <label for="exampleFormControlInput1" class="col-md-6 nameselect">Email address</label>
-                              <input type="email" class="form-control col-md-6 nameselect" id="exampleFormControlInput1" placeholder="Select">
-                              <label for="exampleFormControlInput1" class="col-md-6 mt-1 nameselect ">Email
+                  <div className="collapse m-0" id="collapseExample">
+                      <div className="row bg-white border p-1">
+                          <div className="form-group row mb-0 pl-3">
+                              <label for="exampleFormControlInput1" className="col-md-6 nameselect">Email address</label>
+                              <input type="email" className="form-control col-md-6 nameselect" id="exampleFormControlInput1" placeholder="Select">
+                              <label for="exampleFormControlInput1" className="col-md-6 mt-1 nameselect ">Email
                                   address</label>
-                              <input type="email" class="form-control col-md-6 mt-1 nameselect" id="exampleFormControlInput1" placeholder="Select">
+                              <input type="email" className="form-control col-md-6 mt-1 nameselect" id="exampleFormControlInput1" placeholder="Select">
                           </div>
-                          <div class="d-flex justify-content-start">
-                              <div class="form-check ml-5">
-                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                  <label class="form-check-label" for="defaultCheck1">
+                          <div className="d-flex justify-content-start">
+                              <div className="form-check ml-5">
+                                  <input className="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                  <label className="form-check-label" for="defaultCheck1">
                                       Default checkbox
                                   </label>
                               </div>
-                              <div class="form-check ml-5">
-                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                  <label class="form-check-label" for="defaultCheck1">
+                              <div className="form-check ml-5">
+                                  <input className="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                  <label className="form-check-label" for="defaultCheck1">
                                       Default checkbox
                                   </label>
                               </div>
-                              <div class="form-check ml-5">
-                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                  <label class="form-check-label" for="defaultCheck1">
+                              <div className="form-check ml-5">
+                                  <input className="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                  <label className="form-check-label" for="defaultCheck1">
                                       Default checkbox
                                   </label>
                               </div>
                           </div>
                       </div>
                   </div>
-                  <!--TABBAR tool-->
-                  <div class="col-md-10 offset-md-2 p-0 pl-1">
-                      <div class="row bg-white border mt-1">
-                          <div class="d-flex flex-row align-items-center justify-content-between">
-                              <button type="button" class="btn button btn-sm btn-outline-secondary mx-3">All</button>
-                              <p class="text-secondary mt-2">Sort by</p>
-                              <select class="form-select mx-2 text-secondary" aria-label="Default select example">
+                  <div className="col-md-10 offset-md-2 p-0 pl-1">
+                      <div className="row bg-white border mt-1">
+                          <div className="d-flex flex-row align-items-center justify-content-between">
+                              <button type="button" className="btn button btn-sm btn-outline-secondary mx-3">All</button>
+                              <p className="text-secondary mt-2">Sort by</p>
+                              <select className="form-select mx-2 text-secondary" aria-label="Default select example">
                                   <option selected="">Name</option>
                                   <option value="1">One</option>
                                   <option value="2">Two</option>
                                   <option value="3">Three</option>
                               </select>
                           </div>
-                          <div class="ml-auto d-flex align-items-center">
-                              <ul class="nav nav-tabs ">
-                                  <li class="nav-item">
-                                      <a class="nav-link active" href="#">Tab 1</a>
+                          <div className="ml-auto d-flex align-items-center">
+                              <ul className="nav nav-tabs ">
+                                  <li className="nav-item">
+                                      <a className="nav-link active" href="#">Tab 1</a>
                                   </li>
-                                  <li class="nav-item">
-                                      <a class="nav-link" href="#">Tab 2</a>
+                                  <li className="nav-item">
+                                      <a className="nav-link" href="#">Tab 2</a>
                                   </li>
                               </ul>
                           </div>
                       </div>
                   </div>
-                  <!--TABBAR vertical-->
-
-                  <div id="verticalbar" class="row">
-                      <div class="col-md-2 p-0">
-                          <nav class="nav flex-column">
-                              <a href="#" style="height: 95px;" class="box  d-flex bg-white text-secondary justify-content-center border align-items-center">COMPANY</a>
-                              <a href="#" style="height: 95px;" class="box  d-flex justify-content-center border align-items-center">Plant</a>
-                              <a href="#" style="height: 95px;" class="box  d-flex justify-content-center border align-items-center">WAREHOUSE</a>
-                              <a href="#" style="height: 95px;" class="box  d-flex justify-content-center border align-items-center">FLOOR</a>
-                              <a href="#" style="height: 95px;" class="box  d-flex justify-content-center border align-items-center">STORAGE
+                  <div id="verticalbar" className="row">
+                      <div className="col-md-2 p-0">
+                          <nav className="nav flex-column">
+                              <a href="#" style="height: 95px;" className="box  d-flex bg-white text-secondary justify-content-center border align-items-center">COMPANY</a>
+                              <a href="#" style="height: 95px;" className="box  d-flex justify-content-center border align-items-center">Plant</a>
+                              <a href="#" style="height: 95px;" className="box  d-flex justify-content-center border align-items-center">WAREHOUSE</a>
+                              <a href="#" style="height: 95px;" className="box  d-flex justify-content-center border align-items-center">FLOOR</a>
+                              <a href="#" style="height: 95px;" className="box  d-flex justify-content-center border align-items-center">STORAGE
                                   SECTION</a>
 
                           </nav>
                       </div>
-                      <!--TABBAR input-->
-                      <div class="col-md-10 p-0 bg-white">
-                          <!--frame1-->
-                          <div section="tabbar" class="bg-white pad">
-                              <p class="my-1 pl-2">Genral Data</p>
-                              <form class="p-1 border">
-                                  <div class="form-row justify-content-between mb-1">
-                                      <div class="col-sm-3 label">
-                                          <label for="">Company Code <span class="text-danger">*</span></label>
+                      <div className="col-md-10 p-0 bg-white">
+                          <div section="tabbar" className="bg-white pad">
+                              <p className="my-1 pl-2">Genral Data</p>
+                              <form className="p-1 border">
+                                  <div className="form-row justify-content-between mb-1">
+                                      <div className="col-sm-3 label">
+                                          <label for="">Company Code <span className="text-danger">*</span></label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <select class="form-select text-secondary field">
+                                      <div className="col-sm-3">
+                                          <select className="form-select text-secondary field">
                                               <option selected="">Select</option>
                                           </select>
                                       </div>
 
-                                      <div class="col-sm-3 label">
-                                          <label for="">Company Name<span class="text-danger">*</span></label>
+                                      <div className="col-sm-3 label">
+                                          <label for="">Company Name<span className="text-danger">*</span></label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <select class="form-select text-secondary field float-right">
+                                      <div className="col-sm-3">
+                                          <select className="form-select text-secondary field float-right">
                                               <option selected="">Select</option>
                                           </select>
                                       </div>
                                   </div>
-                                  <div class="form-row justify-content-between mb-1">
-                                      <div class="col-sm-3 label">
-                                          <label for="">Industry Vertical<span class="text-danger">*</span></label>
+                                  <div className="form-row justify-content-between mb-1">
+                                      <div className="col-sm-3 label">
+                                          <label for="">Industry Vertical<span className="text-danger">*</span></label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <select class="form-select text-secondary field">
+                                      <div className="col-sm-3">
+                                          <select className="form-select text-secondary field">
                                               <option selected="">Select</option>
                                           </select>
                                       </div>
 
-                                      <div class="col-sm-3 label">
-                                          <label for="">Currency<span class="text-danger">*</span></label>
+                                      <div className="col-sm-3 label">
+                                          <label for="">Currency<span className="text-danger">*</span></label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <select class="form-select text-secondary field float-right">
+                                      <div className="col-sm-3">
+                                          <select className="form-select text-secondary field float-right">
                                               <option selected="">Select</option>
                                           </select>
                                       </div>
                                   </div>
-                                  <div class="form-row justify-content-between mb-0">
-                                      <div class="col-sm-3 label">
+                                  <div className="form-row justify-content-between mb-0">
+                                      <div className="col-sm-3 label">
                                           <label for="">warehouse destruction</label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <input type="text" class="form-control field" placeholder="Enter">
+                                      <div className="col-sm-3">
+                                          <input type="text" className="form-control field" placeholder="Enter">
                                       </div>
 
-                                      <div class="col-sm-3 label">
+                                      <div className="col-sm-3 label">
                                           <label for="">warehouse destruction</label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <input type="text" class="form-control field float-right " placeholder="Enter">
+                                      <div className="col-sm-3">
+                                          <input type="text" className="form-control field float-right " placeholder="Enter">
                                       </div>
                                   </div>
                               </form>
                           </div>
-
-                          <!--frame1-->
-                          <div section="tabbar" class="bg-white pad">
-                              <p class="my-1 pl-2">Genral Data</p>
-                              <form class="p-1 border">
-                                  <div class="form-row justify-content-between mb-1">
-                                      <div class="col-sm-3 label">
-                                          <label for="">Company Code <span class="text-danger">*</span></label>
+                          <div section="tabbar" className="bg-white pad">
+                              <p className="my-1 pl-2">Genral Data</p>
+                              <form className="p-1 border">
+                                  <div className="form-row justify-content-between mb-1">
+                                      <div className="col-sm-3 label">
+                                          <label for="">Company Code <span className="text-danger">*</span></label>
                                       </div>
-                                      <div class="col-sm-3 ">
-                                          <select class="form-select text-secondary field">
+                                      <div className="col-sm-3 ">
+                                          <select className="form-select text-secondary field">
                                               <option selected="">Select</option>
                                           </select>
                                       </div>
 
-                                      <div class="col-sm-3 label">
-                                          <label for="">Company Name<span class="text-danger">*</span></label>
+                                      <div className="col-sm-3 label">
+                                          <label for="">Company Name<span className="text-danger">*</span></label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <select class="form-select text-secondary field float-right">
-                                              <option selected="">Select</option>
-                                          </select>
-                                      </div>
-                                  </div>
-                                  <div class="form-row justify-content-between mb-1">
-                                      <div class="col-sm-3 label">
-                                          <label for="">Industry Vertical<span class="text-danger">*</span></label>
-                                      </div>
-                                      <div class="col-sm-3">
-                                          <select class="form-select text-secondary field">
-                                              <option selected="">Select</option>
-                                          </select>
-                                      </div>
-
-                                      <div class="col-sm-3 label">
-                                          <label for="">Currency<span class="text-danger">*</span></label>
-                                      </div>
-                                      <div class="col-sm-3">
-                                          <select class="form-select text-secondary field float-right">
+                                      <div className="col-sm-3">
+                                          <select className="form-select text-secondary field float-right">
                                               <option selected="">Select</option>
                                           </select>
                                       </div>
                                   </div>
-                                  <div class="form-row justify-content-between mb-0">
-                                      <div class="col-sm-3 label">
-                                          <label for="">warehouse destruction</label>
+                                  <div className="form-row justify-content-between mb-1">
+                                      <div className="col-sm-3 label">
+                                          <label for="">Industry Vertical<span className="text-danger">*</span></label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <input type="text" class="form-control field" placeholder="Enter">
+                                      <div className="col-sm-3">
+                                          <select className="form-select text-secondary field">
+                                              <option selected="">Select</option>
+                                          </select>
                                       </div>
 
-                                      <div class="col-sm-3 label">
+                                      <div className="col-sm-3 label">
+                                          <label for="">Currency<span className="text-danger">*</span></label>
+                                      </div>
+                                      <div className="col-sm-3">
+                                          <select className="form-select text-secondary field float-right">
+                                              <option selected="">Select</option>
+                                          </select>
+                                      </div>
+                                  </div>
+                                  <div className="form-row justify-content-between mb-0">
+                                      <div className="col-sm-3 label">
                                           <label for="">warehouse destruction</label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <input type="text" class="form-control field float-right " placeholder="Enter">
+                                      <div className="col-sm-3">
+                                          <input type="text" className="form-control field" placeholder="Enter">
+                                      </div>
+
+                                      <div className="col-sm-3 label">
+                                          <label for="">warehouse destruction</label>
+                                      </div>
+                                      <div className="col-sm-3">
+                                          <input type="text" className="form-control field float-right " placeholder="Enter">
                                       </div>
                                   </div>
                               </form>
                           </div>
-                          <!--frame1-->
-                          <div section="tabbar" class="bg-white pad">
-                              <p class=" mt-0 mb-1 pl-2">Genral Data</p>
-                              <form class="p-1 border">
-                                  <div class="form-row justify-content-between mb-1">
-                                      <div class="col-sm-3 label">
-                                          <label for="">Company Code <span class="text-danger">*</span></label>
+                          <div section="tabbar" className="bg-white pad">
+                              <p className=" mt-0 mb-1 pl-2">Genral Data</p>
+                              <form className="p-1 border">
+                                  <div className="form-row justify-content-between mb-1">
+                                      <div className="col-sm-3 label">
+                                          <label for="">Company Code <span className="text-danger">*</span></label>
                                       </div>
-                                      <div class="col-sm-3 ">
-                                          <select class="form-select text-secondary field">
+                                      <div className="col-sm-3 ">
+                                          <select className="form-select text-secondary field">
                                               <option selected="">Select</option>
                                           </select>
                                       </div>
 
-                                      <div class="col-sm-3 label">
-                                          <label for="">Company Name<span class="text-danger">*</span></label>
+                                      <div className="col-sm-3 label">
+                                          <label for="">Company Name<span className="text-danger">*</span></label>
                                       </div>
-                                      <div class="col-sm-3 ">
-                                          <select class="form-select text-secondary field float-right">
+                                      <div className="col-sm-3 ">
+                                          <select className="form-select text-secondary field float-right">
                                               <option selected="">Select</option>
                                           </select>
                                       </div>
                                   </div>
-                                  <div class="form-row justify-content-between mb-1">
-                                      <div class="col-sm-3 label">
-                                          <label for="">Industry Vertical<span class="text-danger">*</span></label>
+                                  <div className="form-row justify-content-between mb-1">
+                                      <div className="col-sm-3 label">
+                                          <label for="">Industry Vertical<span className="text-danger">*</span></label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <select class="form-select text-secondary field">
+                                      <div className="col-sm-3">
+                                          <select className="form-select text-secondary field">
                                               <option selected="">Select</option>
                                           </select>
                                       </div>
 
-                                      <div class="col-sm-3 label">
-                                          <label for="">Currency<span class="text-danger">*</span></label>
+                                      <div className="col-sm-3 label">
+                                          <label for="">Currency<span className="text-danger">*</span></label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <select class="form-select text-secondary field float-right">
+                                      <div className="col-sm-3">
+                                          <select className="form-select text-secondary field float-right">
                                               <option selected="">Select</option>
                                           </select>
                                       </div>
                                   </div>
-                                  <div class="form-row justify-content-between mb-0">
-                                      <div class="col-sm-3 label">
+                                  <div className="form-row justify-content-between mb-0">
+                                      <div className="col-sm-3 label">
                                           <label for="">warehouse destruction</label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <input type="text" class="form-control field" placeholder="Enter">
+                                      <div className="col-sm-3">
+                                          <input type="text" className="form-control field" placeholder="Enter">
                                       </div>
 
-                                      <div class="col-sm-3 label">
+                                      <div className="col-sm-3 label">
                                           <label for="">warehouse destruction</label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <input type="text" class="form-control field float-right " placeholder="Enter">
+                                      <div className="col-sm-3">
+                                          <input type="text" className="form-control field float-right " placeholder="Enter">
                                       </div>
                                   </div>
                               </form>
                           </div>
-                          <!--frame1-->
-                          <div section="tabbar" class="bg-white pad">
-                              <p class=" mt-0 mb-1 pl-2">Genral Data</p>
-                              <form class="p-1 border">
-                                  <div class="form-row justify-content-between mb-1">
-                                      <div class="col-sm-3 label">
-                                          <label for="">Company Code <span class="text-danger">*</span></label>
+                          <div section="tabbar" className="bg-white pad">
+                              <p className=" mt-0 mb-1 pl-2">Genral Data</p>
+                              <form className="p-1 border">
+                                  <div className="form-row justify-content-between mb-1">
+                                      <div className="col-sm-3 label">
+                                          <label for="">Company Code <span className="text-danger">*</span></label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <select class="form-select text-secondary field">
+                                      <div className="col-sm-3">
+                                          <select className="form-select text-secondary field">
                                               <option selected="">Select</option>
                                           </select>
                                       </div>
 
-                                      <div class="col-sm-3 label">
-                                          <label for="">Company Name<span class="text-danger">*</span></label>
+                                      <div className="col-sm-3 label">
+                                          <label for="">Company Name<span className="text-danger">*</span></label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <select class="form-select text-secondary field float-right">
+                                      <div className="col-sm-3">
+                                          <select className="form-select text-secondary field float-right">
                                               <option selected="">Select</option>
                                           </select>
                                       </div>
                                   </div>
-                                  <div class="form-row justify-content-between mb-1">
-                                      <div class="col-sm-3 label">
-                                          <label for="">Industry Vertical<span class="text-danger">*</span></label>
+                                  <div className="form-row justify-content-between mb-1">
+                                      <div className="col-sm-3 label">
+                                          <label for="">Industry Vertical<span className="text-danger">*</span></label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <select class="form-select text-secondary field">
+                                      <div className="col-sm-3">
+                                          <select className="form-select text-secondary field">
                                               <option selected="">Select</option>
                                           </select>
                                       </div>
 
-                                      <div class="col-sm-3 label">
-                                          <label for="">Currency<span class="text-danger">*</span></label>
+                                      <div className="col-sm-3 label">
+                                          <label for="">Currency<span className="text-danger">*</span></label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <select class="form-select text-secondary field float-right">
+                                      <div className="col-sm-3">
+                                          <select className="form-select text-secondary field float-right">
                                               <option selected="">Select</option>
                                           </select>
                                       </div>
                                   </div>
-                                  <div class="form-row justify-content-between mb-0">
-                                      <div class="col-sm-3 label">
+                                  <div className="form-row justify-content-between mb-0">
+                                      <div className="col-sm-3 label">
                                           <label for="">warehouse destruction</label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <input type="text" class="form-control field" placeholder="Enter">
+                                      <div className="col-sm-3">
+                                          <input type="text" className="form-control field" placeholder="Enter">
                                       </div>
 
-                                      <div class="col-sm-3 label">
+                                      <div className="col-sm-3 label">
                                           <label for="">warehouse destruction</label>
                                       </div>
-                                      <div class="col-sm-3">
-                                          <input type="text" class="form-control field float-right " placeholder="Enter">
+                                      <div className="col-sm-3">
+                                          <input type="text" className="form-control field float-right " placeholder="Enter">
                                       </div>
                                   </div>
                               </form>
@@ -446,53 +424,53 @@
                   </div>
 
               </div>
-              <div class="col-md-3 pl-2 mt-1">
-                  <div class="bg-white" style="height: 100%;">
-                      <div class="logo text-center mb-2">
-                          <img src="img/logo.jpeg" alt="" class="img-fluid" style="height: 46px;width: 247px;">
+              <div className="col-md-3 pl-2 mt-1">
+                  <div className="bg-white" style="height: 100%;">
+                      <div className="logo text-center mb-2">
+                          <img src="img/logo.jpeg" alt="" className="img-fluid" style="height: 46px;width: 247px;">
                       </div>
                       <div id="accordion">
-                          <div class="card">
-                              <div class="card-header bg-white" id="headingOne">
-                                  <h5 class="mb-0">
-                                      <button class="acc btn btn-outline-secondary btn-sm btn-block rounded-0" data-toggle="collapse" data-target="#collapseOne"><i class="bi bi-arrow-left text-white arrow float-left"></i>
+                          <div className="card">
+                              <div className="card-header bg-white" id="headingOne">
+                                  <h5 className="mb-0">
+                                      <button className="acc btn btn-outline-secondary btn-sm btn-block rounded-0" data-toggle="collapse" data-target="#collapseOne"><i className="bi bi-arrow-left text-white arrow float-left"></i>
                                           INBOUND
                                       </button>
 
                                   </h5>
                               </div>
 
-                              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                                  <div class="card text-center">
-                                      <h5 class="card-header">Featured</h5>
-                                      <div class="card-body">
-                                          <h5 class="card-title">Special title treatment</h5>
-                                          <p class="card-text">With supporting text below as a natural lead-in to
+                              <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                  <div className="card text-center">
+                                      <h5 className="card-header">Featured</h5>
+                                      <div className="card-body">
+                                          <h5 className="card-title">Special title treatment</h5>
+                                          <p className="card-text">With supporting text below as a natural lead-in to
                                               additional content.</p>
-                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                          <a href="#" className="btn btn-primary">Go somewhere</a>
                                       </div>
                                   </div>
                               </div>
                           </div>
                       </div>
                       <div id="accordion">
-                          <div class="card  mt-1">
-                              <div class="card-header bg-white" id="headingOne">
-                                  <h5 class="mb-0">
-                                      <button class="acc btn btn-outline-secondary btn-sm btn-block rounded-0" data-toggle="collapse" data-target="#collapseOne1"><i class="bi bi-arrow-left text-white arrow float-left"></i>
+                          <div className="card  mt-1">
+                              <div className="card-header bg-white" id="headingOne">
+                                  <h5 className="mb-0">
+                                      <button className="acc btn btn-outline-secondary btn-sm btn-block rounded-0" data-toggle="collapse" data-target="#collapseOne1"><i className="bi bi-arrow-left text-white arrow float-left"></i>
                                           MAKE AND CHANGE
                                       </button>
                                   </h5>
                               </div>
 
-                              <div id="collapseOne1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                                  <div class="card text-center">
-                                      <h5 class="card-header">Featured</h5>
-                                      <div class="card-body">
-                                          <h5 class="card-title">Special title treatment</h5>
-                                          <p class="card-text">With supporting text below as a natural lead-in to
+                              <div id="collapseOne1" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                  <div className="card text-center">
+                                      <h5 className="card-header">Featured</h5>
+                                      <div className="card-body">
+                                          <h5 className="card-title">Special title treatment</h5>
+                                          <p className="card-text">With supporting text below as a natural lead-in to
                                               additional content.</p>
-                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                          <a href="#" className="btn btn-primary">Go somewhere</a>
                                       </div>
                                   </div>
                               </div>
@@ -500,46 +478,46 @@
                       </div>
 
                       <div id="accordion">
-                          <div class="card  mt-1">
-                              <div class="card-header   bg-white" id="headingOne">
-                                  <h5 class="mb-0">
-                                      <button class="acc btn btn-outline-secondary btn-sm btn-block rounded-0" data-toggle="collapse" data-target="#collapseOne3"><i class="bi text-white bi-arrow-left arrow float-left"></i>
+                          <div className="card  mt-1">
+                              <div className="card-header   bg-white" id="headingOne">
+                                  <h5 className="mb-0">
+                                      <button className="acc btn btn-outline-secondary btn-sm btn-block rounded-0" data-toggle="collapse" data-target="#collapseOne3"><i className="bi text-white bi-arrow-left arrow float-left"></i>
                                           OUTBOUND
                                       </button>
                                   </h5>
                               </div>
 
-                              <div id="collapseOne3" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                                  <div class="card text-center">
-                                      <h5 class="card-header">Featured</h5>
-                                      <div class="card-body">
-                                          <h5 class="card-title">Special title treatment</h5>
-                                          <p class="card-text">With supporting text below as a natural lead-in to
+                              <div id="collapseOne3" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                  <div className="card text-center">
+                                      <h5 className="card-header">Featured</h5>
+                                      <div className="card-body">
+                                          <h5 className="card-title">Special title treatment</h5>
+                                          <p className="card-text">With supporting text below as a natural lead-in to
                                               additional content.</p>
-                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                          <a href="#" className="btn btn-primary">Go somewhere</a>
                                       </div>
                                   </div>
                               </div>
                           </div>
                       </div>
                       <div id="accordion">
-                          <div class="card  mt-1">
-                              <div class="card-header bg-white" id="headingOne">
-                                  <h5 class="mb-0">
-                                      <button class="acc btn btn-outline-secondary btn-sm btn-block rounded-0" data-toggle="collapse" data-target="#collapseOne4"><i class="bi bi-arrow-left text-white arrow float-left"></i>
+                          <div className="card  mt-1">
+                              <div className="card-header bg-white" id="headingOne">
+                                  <h5 className="mb-0">
+                                      <button className="acc btn btn-outline-secondary btn-sm btn-block rounded-0" data-toggle="collapse" data-target="#collapseOne4"><i className="bi bi-arrow-left text-white arrow float-left"></i>
                                           DASHBOARD
                                       </button>
                                   </h5>
                               </div>
 
-                              <div id="collapseOne4" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                                  <div class="card text-center">
-                                      <h5 class="card-header">Featured</h5>
-                                      <div class="card-body">
-                                          <h5 class="card-title">Special title treatment</h5>
-                                          <p class="card-text">With supporting text below as a natural lead-in to
+                              <div id="collapseOne4" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                  <div className="card text-center">
+                                      <h5 className="card-header">Featured</h5>
+                                      <div className="card-body">
+                                          <h5 className="card-title">Special title treatment</h5>
+                                          <p className="card-text">With supporting text below as a natural lead-in to
                                               additional content.</p>
-                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                          <a href="#" className="btn btn-primary">Go somewhere</a>
                                       </div>
                                   </div>
                               </div>
@@ -550,25 +528,25 @@
                   </div>
               </div>
           </div>
-          <div class="row p-0 m-0 bg-white">
-              <div class="col-md-4  px-2  mt-1">
+          <div className="row p-0 m-0 bg-white">
+              <div className="col-md-4  px-2  mt-1">
                   <nav aria-label="Page navigation example">
-                      <ul class="pagination ">
-                          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                          <li class="page-item"><a class="page-link" href="#">1</a></li>
-                          <li class="page-item"><a class="page-link" href="#">2</a></li>
-                          <li class="page-item"><a class="page-link" href="#">3</a></li>
-                          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                      <ul className="pagination ">
+                          <li className="page-item"><a className="page-link" href="#">Previous</a></li>
+                          <li className="page-item"><a className="page-link" href="#">1</a></li>
+                          <li className="page-item"><a className="page-link" href="#">2</a></li>
+                          <li className="page-item"><a className="page-link" href="#">3</a></li>
+                          <li className="page-item"><a className="page-link" href="#">Next</a></li>
                       </ul>
                   </nav>
               </div>
-              <div class="col-md-5 offset-md-3 mt-1" style="padding-left:64px">
-                  <button class="btn btn-sm btn-outline-secondary "><span><i class="bi bi-arrow-left"></i>
+              <div className="col-md-5 offset-md-3 mt-1" style="padding-left:64px">
+                  <button className="btn btn-sm btn-outline-secondary "><span><i className="bi bi-arrow-left"></i>
                       </span>Back</button>
-                  <a href="plant.html" class="btn btn-sm btn-outline-secondary ml-3">Next <span><i class="bi bi-arrow-right"></i></span></a>
+                  <a href="plant.html" className="btn btn-sm btn-outline-secondary ml-3">Next <span><i className="bi bi-arrow-right"></i></span></a>
               </div>
           </div>
       </div>
-  </div>
+    </div> -->
   </body>
 </html>
